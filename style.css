@@ -1,0 +1,31 @@
+:root{
+    --cor-fundo: #383838;
+    --cor-preto: #000000;
+    --cor-clara: #ffffff;
+}
+
+body{
+    background: var(--cor-fundo);
+    color: var(--cor-clara);
+    margin: 0;
+}
+
+
+.cabecalho{
+    background: var(--cor-preto);
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.imagem__cabecalho{
+    width: 10%;
+    margin-right: 3em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
